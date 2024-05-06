@@ -1,0 +1,36 @@
+Exercicio Versionamento
+
+o que e o python?
+O Python é uma linguagem de programação amplamente usada em aplicações da Web, 
+desenvolvimento de software, ciência de dados e machine learning (ML). 
+Os desenvolvedores usam o Python porque é eficiente e fácil de aprender e pode ser executada em muitas plataformas diferentes.
+
+Passo a passo fazer o download
+Acesse a página oficial para realizar o download do instalador do Python na versão 3.8.
+Vá até a pasta na qual foi feito o download do instalador do Python 3.8.
+Clique com o botão direito em cima do instalador. Clique na opção “Executar como Administrador”.
+
+Com o instalador aberto tenha a certeza de ter marcado as opções “Add Python 3.8 to PATH” para que o comando python fique disponível.
+Por fim clique em “Install Now” e siga o processo padrão de instalação de programas no Windows (next, next, next, finish).
+
+Virtualenv
+
+Instale o virtualenv: Primeiro, você precisa instalar o pacote virtualenv usando o pip, o gerenciador de pacotes do Python. Abra seu terminal ou prompt de comando e execute o seguinte comando:
+pip install virtualenv
+
+Este comando instala o pacote virtualenv globalmente em seu sistema.
+Crie um novo ambiente virtual: Navegue até o diretório onde você deseja criar o ambiente virtual. Em seguida, execute o seguinte comando:
+virtualenv nome_do_ambiente_virtual
+
+Substitua "nome_do_ambiente_virtual" pelo nome que você deseja dar ao seu ambiente virtual. Este comando cria um novo diretório com o nome especificado, que contém o ambiente virtual.
+Ative o ambiente virtual: Para ativar o ambiente virtual, execute o seguinte comando:
+No Windows:
+nome_do_ambiente_virtual\Scripts\activate
+
+No macOS/Linux:
+source nome_do_ambiente_virtual/bin/activate
+
+Este comando ativa o ambiente virtual, e você verá o nome do ambiente virtual no início do seu prompt de comando ou terminal.
+
+Instalar flask 
+para instalar o flask voce deve ir ao terminal e dar o seguinte comando: pip install flask
